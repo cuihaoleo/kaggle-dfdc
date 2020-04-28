@@ -1,0 +1,6 @@
+[submodule "external/Pytorch_Retinaface"]
+	path = external/Pytorch_Retinaface
+	url = https://github.com/biubug6/Pytorch_Retinaface.git
+[submodule "external/EfficientNet-PyTorch"]
+	path = external/EfficientNet-PyTorch
+	url = https://github.com/lukemelas/EfficientNet-PyTorch
