@@ -1,5 +1,7 @@
 This is the code of **Team \WM/** to reproduce our solution for the *Deepfake Detection Challenge* (DFDC).
 
+Please refer to `Model_Summary.pdf` for a descriptive summary of our method.
+
 **Members** (alphabetical order):
 
 - Hanqing Zhao (zhq2015@mail.ustc.edu.cn)
