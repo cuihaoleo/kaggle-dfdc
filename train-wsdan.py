@@ -100,6 +100,7 @@ def main_worker(local_rank, ngpus_per_node, args):
                  data_loader=validate_loader, cross_entropy_loss=cross_entropy_loss,
                  net=net, ngpus_per_node=ngpus_per_node, local_rank=local_rank)
         scheduler.step()
+        feature_center*=2   #amplifiy feature centers, this keeps normalized feature center but change update rate. 
         if local_rank == 0:
             torch.save({
                 'logs': logs,
