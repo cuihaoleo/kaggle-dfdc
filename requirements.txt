@@ -3,6 +3,6 @@ torch==1.4.0
 opencv_python==4.2.0.32
 efficientnet_pytorch==0.6.3
 scipy==1.1.0
-numpy==1.15.4
+numpy==1.22.0
 torchvision==0.5.0
 Pillow==7.1.2
